@@ -1,0 +1,339 @@
+:root {
+    --main-header-color: #FFFFFF;
+    --second-heading-color: #212121; 
+    --description-color: #757575;
+    --header-logo-color: #000000;
+    --footer-logo-color: #FFFFFF; 
+    --hover-color: #2196F3; 
+    --footer-adress-color: #FFFFFF; 
+    --web-logo: #2196F3;
+    --service-btn-text: #FFFFFF; 
+    --service-btn-color: #2196F3;
+    --filter-btn-hover-text: #FFFFFF;
+    --filter-btn-hover-color: #2196F3;
+    --filter-btn-text: #212121;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {margin: 0;}
+
+ul {margin: 0;
+padding-left: 0;}
+
+a {
+    color: inherit;
+}
+
+body {font-family: "Roboto", "Raleway", sans-serif;
+}
+
+button input a {
+    cursor: pointer;
+}
+
+.list {
+    list-style: none;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid tomato;
+}
+
+
+/* -------------- studio\portfolio header -------------- */
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.header-web-logo {
+    color: var(--web-logo);
+}
+
+.header-logo {
+    font-family: 'Raleway'; 
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--header-logo-color);
+}
+
+.header-navigation-link:hover,
+.header-navigation-link:focus {
+    color: var(--hover-color)
+}
+.header-navigation-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: var(--second-heading-color);
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+    color: var(--hover-color)
+}
+.header-address-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: var(--description-color)
+}
+
+
+/* -------------- studio-main -------------- */
+
+.btn-section {
+    background-color: #2F303A;
+    padding: 200px 100px 280px 100px;
+}
+
+.btn-heading {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-header-color);
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+
+.main-btn {
+    font-family: 'roboto';
+    color: var(--service-btn-text);
+    background-color: var(--service-btn-color)
+}
+
+.our-job {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.benefits-list {
+    margin-bottom: 94px;
+}
+
+.benefits-heading {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-heading-color);
+    margin-bottom: 10px;
+}
+
+.benefits-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-heading-color);
+    margin-bottom: 30px;
+}
+
+
+.our-job-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-heading-color);
+    margin-bottom: 50px;
+}
+
+.our-job-picture {
+    /* margin-bottom: 30px; */
+}
+
+.our-team { 
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.our-team-item {
+    width: 273px;
+    height: 368px;
+    border: 1px solid black;
+}
+
+.our-team-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-heading-color);
+    margin-top: 94px;
+}
+
+.our-team-list {
+    margin-top: 50px;
+    margin-bottom: 94px;
+}
+
+.product-designer {
+
+}
+
+.frontend-developer {
+
+}
+
+.ui-designer {
+
+}
+
+.marketing {
+
+}
+
+.our-team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-heading-color);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.our-team-job-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+}
+
+
+/* -------------- portfolio main -------------- */
+
+.main-filter { 
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--filter-btn-hover-text);
+    background-color: var(--filter-btn-hover-color);
+}
+
+.filter-list {
+    margin-bottom: 50px;
+}
+
+.filter-btn {
+    font-family: 'roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+.card {
+
+}
+
+.example-item { 
+    width: 373px;
+    height: 404px;
+    border: 1px solid black;
+}
+
+.example-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--second-heading-color);
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.example-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+    margin-bottom: 114px;
+}
+
+/* -------------- studio/porfolio footer -------------- */
+.footer-address {
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-web-logo {
+    color: var(--web-logo);
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--footer-logo-color);
+    margin-bottom: 20px;
+}
+
+.address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-adress-color);
+    margin-bottom: 9px;
+}
+
+.footer-address-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+    margin-bottom: 9px;
+}
+
+
+.footer-phone {
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            color: var(--description-color);
+}
