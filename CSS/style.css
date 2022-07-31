@@ -50,7 +50,7 @@ button input a {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 1px solid tomato;
+    /* outline: 1px solid tomato; */
 }
 
 
@@ -59,6 +59,12 @@ button input a {
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header > .container { 
+    display: flex;
+    align-items: center;
 }
 
 .header-web-logo {
@@ -72,6 +78,12 @@ button input a {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--header-logo-color);
+    margin-right: 93px;
+}
+
+.header-navigation-list {
+    display: flex;
+    gap: 50px;
 }
 
 .header-navigation-link:hover,
@@ -84,6 +96,12 @@ button input a {
     line-height: 1.15;
     letter-spacing: 0.02em;
     color: var(--second-heading-color);
+}
+
+.header-address-list {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
 }
 
 .header-address-link:hover,
@@ -106,6 +124,12 @@ button input a {
     padding: 200px 100px 280px 100px;
 }
 
+.btn-section > .container { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .btn-heading {
     font-weight: 900;
     font-size: 44px;
@@ -121,7 +145,8 @@ button input a {
 .main-btn {
     font-family: 'roboto';
     color: var(--service-btn-text);
-    background-color: var(--service-btn-color)
+    background-color: var(--service-btn-color);
+    border: none;
 }
 
 .our-job {
@@ -131,6 +156,8 @@ button input a {
 
 .benefits-list {
     margin-bottom: 94px;
+    display: flex;
+    gap: 30px;
 }
 
 .benefits-heading {
@@ -148,7 +175,7 @@ button input a {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--second-heading-color);
+    color: var(--description-color);
     margin-bottom: 30px;
 }
 
@@ -163,8 +190,10 @@ button input a {
     margin-bottom: 50px;
 }
 
-.our-job-picture {
-    /* margin-bottom: 30px; */
+.our-job-list {
+    display: flex;
+    gap: 30px;
+    
 }
 
 .our-team { 
@@ -175,7 +204,7 @@ button input a {
 .our-team-item {
     width: 273px;
     height: 368px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .our-team-heading {
@@ -185,12 +214,12 @@ button input a {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-heading-color);
-    margin-top: 94px;
 }
 
 .our-team-list {
     margin-top: 50px;
-    margin-bottom: 94px;
+    display: flex;
+    gap: 30px;
 }
 
 .product-designer {
@@ -245,6 +274,9 @@ button input a {
 
 .filter-list {
     margin-bottom: 50px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
 }
 
 .filter-btn {
@@ -254,17 +286,26 @@ button input a {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    border: none;
+    background: none;
 }
 
+
+.example-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 30px;
+}
 
 .card {
-
-}
+/* border: 1px solid black; */
+} 
 
 .example-item { 
-    width: 373px;
+    width: 370px;
     height: 404px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .example-title {
@@ -297,19 +338,25 @@ button input a {
     color: var(--web-logo);
 }
 
+
 .footer-logo {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
+    margin-bottom: 20px;
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--footer-logo-color);
-    margin-bottom: 20px;
+}
+
+.footer-address-list {
+    gap: 9px;
 }
 
 .address {
     font-weight: 400;
     font-size: 14px;
+    font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--footer-adress-color);
