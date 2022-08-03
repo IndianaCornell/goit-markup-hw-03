@@ -1,13 +1,13 @@
 :root {
     --main-header-color: #FFFFFF;
-    --second-heading-color: #212121; 
+    --second-heading-color: #212121;
     --description-color: #757575;
     --header-logo-color: #000000;
-    --footer-logo-color: #FFFFFF; 
-    --hover-color: #2196F3; 
-    --footer-adress-color: #FFFFFF; 
+    --footer-logo-color: #FFFFFF;
+    --hover-color: #2196F3;
+    --footer-adress-color: #FFFFFF;
     --web-logo: #2196F3;
-    --service-btn-text: #FFFFFF; 
+    --service-btn-text: #FFFFFF;
     --service-btn-color: #2196F3;
     --filter-btn-hover-text: #FFFFFF;
     --filter-btn-hover-color: #2196F3;
@@ -20,16 +20,21 @@ h2,
 h3,
 h4,
 h5,
-h6 {margin: 0;}
+h6 {
+    margin: 0;
+}
 
-ul {margin: 0;
-padding-left: 0;}
+ul {
+    margin: 0;
+    padding-left: 0;
+}
 
 a {
     color: inherit;
 }
 
-body {font-family: "Roboto", "Raleway", sans-serif;
+body {
+    font-family: "Roboto", "Raleway", sans-serif;
 }
 
 button input a {
@@ -62,17 +67,21 @@ button input a {
     border-bottom: 1px solid #ECECEC;
 }
 
-.header > .container { 
+.header>.container {
     display: flex;
     align-items: center;
 }
 
+.haeder-navigation {
+    display: flex;
+    align-items: center;
+}
 .header-web-logo {
     color: var(--web-logo);
 }
 
 .header-logo {
-    font-family: 'Raleway'; 
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -90,6 +99,7 @@ button input a {
 .header-navigation-link:focus {
     color: var(--hover-color)
 }
+
 .header-navigation-link {
     font-weight: 500;
     font-size: 14px;
@@ -108,6 +118,7 @@ button input a {
 .header-address-link:focus {
     color: var(--hover-color)
 }
+
 .header-address-link {
     font-weight: 500;
     font-size: 14px;
@@ -121,10 +132,10 @@ button input a {
 
 .btn-section {
     background-color: #2F303A;
-    padding: 200px 100px 280px 100px;
+    padding: 200px 0;
 }
 
-.btn-section > .container { 
+.btn-section>.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,13 +160,12 @@ button input a {
     border: none;
 }
 
-.our-job {
+.our-benefits {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
 .benefits-list {
-    margin-bottom: 94px;
     display: flex;
     gap: 30px;
 }
@@ -176,9 +186,11 @@ button input a {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--description-color);
-    margin-bottom: 30px;
 }
 
+.our-job {
+    padding-bottom: 94px;
+}
 
 .our-job-heading {
     font-weight: 700;
@@ -193,17 +205,16 @@ button input a {
 .our-job-list {
     display: flex;
     gap: 30px;
-    
+
 }
 
-.our-team { 
+.our-team {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
 .our-team-item {
     width: 273px;
-    height: 368px;
     /* border: 1px solid black; */
 }
 
@@ -214,29 +225,26 @@ button input a {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-heading-color);
+    margin-bottom: 50px;
 }
 
 .our-team-list {
-    margin-top: 50px;
     display: flex;
     gap: 30px;
 }
 
-.product-designer {
+.product-designer {}
 
+.frontend-developer {}
+
+.ui-designer {}
+
+.marketing {}
+
+.our-team {
+background-color:gainsboro;
 }
 
-.frontend-developer {
-
-}
-
-.ui-designer {
-
-}
-
-.marketing {
-
-}
 
 .our-team-name {
     font-weight: 500;
@@ -245,7 +253,7 @@ button input a {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-heading-color);
-    margin-top: 30px;
+    padding-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -256,12 +264,13 @@ button input a {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--description-color);
+    padding-bottom: 30px;
 }
 
 
 /* -------------- portfolio main -------------- */
 
-.main-filter { 
+.main-filter {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -299,13 +308,18 @@ button input a {
 }
 
 .card {
-/* border: 1px solid black; */
-} 
-
-.example-item { 
-    width: 370px;
-    height: 404px;
     /* border: 1px solid black; */
+}
+
+.example-item {
+    width: 370px;
+    /* border: 1px solid black; */
+}
+
+.description {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 
 .example-title {
@@ -314,7 +328,6 @@ button input a {
     line-height: 2.0;
     letter-spacing: 0.06em;
     color: var(--second-heading-color);
-    margin-top: 20px;
     margin-bottom: 4px;
 }
 
@@ -324,7 +337,6 @@ button input a {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--description-color);
-    margin-bottom: 114px;
 }
 
 /* -------------- studio/porfolio footer -------------- */
@@ -376,11 +388,11 @@ button input a {
 
 
 .footer-phone {
-        font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 1.71;
-            letter-spacing: 0.03em;
-            color: var(--description-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
 }
