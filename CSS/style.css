@@ -222,7 +222,7 @@ button input a {
 .our-team-item {
     width: 270px;
     border-radius: 0px 0px 4px 4px;
-    background-color: darkgray;
+    background-color: #fff;
 }
 
 .our-team-heading {
@@ -280,7 +280,7 @@ button input a {
 }
 
 .filter-list {
-    margin-bottom: 56px;
+    margin-bottom: 50px;
     display: flex;
     gap: 8px;
     justify-content: center;
